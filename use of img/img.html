@@ -1,0 +1,49 @@
+<!-- First of all, the <img> tag is used to add an image to the HTML page. -->
+    <img src="https://picsum.photos/200/300" alt="Lorem Picsum img">
+
+<!-- alt = alternative text (this text appears when the page does not load correctly.) -->
+
+<!-- src = source (if source be in web src= "link"  -- if not and source be in your pc src= "../images/img.png")-->
+    <img src="/use of img/img/vesikalik.jpeg" alt="Samet Polat" style="width: 200px;height: 300px;">
+<!-- Notes:Photo to upload be in same folder with file -->
+
+<!-- Title informs the user. The title appears when the cursor is on the image. -->
+    <img src="https://picsum.photos/200/300" alt="Lorem Picsum img" title="Lorem Picsum Random Photo"> 
+<!-- Notes: Title and alt parameters are important for SEO -->
+
+<!-- Widht and Height -->
+    <img src="https://picsum.photos/200/300" alt="Lorem" title="Lorem Picsum" style="width:360px;height:240px;">
+
+<!-- If width and height are not defined, the image will appear with its real size.-->
+    <img src="https://picsum.photos/200/300" alt="Lorem" title="Lorem Picsum">
+
+<!-- If one of these features is defined, the undefined feature will appear in its real size. -->
+    <img src="https://picsum.photos/200/300" alt="Lorem" title="Lorem Picsum" style="width:360px;">
+
+<!-- Use of border (Adds a frame to the image) -->
+    <img src="https://picsum.photos/200/300" alt="Lorem Picsum img" border="3">
+
+<!-- Use of align (Used to replace the image) -->
+    <img src="https://picsum.photos/200/300" alt="Lorem Picsum img" align="right">
+
+    <!-- Link to image -->
+    <a href="https://www.linkedin.com/in/sametpolat17/"target="_blank">
+        <img src="/use of img/img/vesikalik.jpeg" alt="Samet Polat" style="width:240px;height:360px;"border="2"title="Samet Polat">
+    </a>
+
+<!-- Map and Area (It is used to connect multiple links inside the image. We can choose these link locations.) -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>use of image</title>
+    </head>
+    <body>
+        <img src="/use of img/img/vesikalik.jpeg" alt="Samet Polat" style="width: 240px;height: 360px;" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="0,0,240,180" href="https://www.instagram.com/" alt="head"target="_blank">
+            <area shape="rect" coords="0,180,240,360" href="https://twitter.com/" alt="body"target="_blank">
+        </map>
+    </body>
+    </html>
