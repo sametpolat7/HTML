@@ -11,4 +11,4 @@ At this work, i trained img structure in HTML.
 - link to img
 - map and area
 
-[This informations is taken from the](https://academy.patika.dev/courses/html/gorsellerle-calismak)
+This informations is taken from the [Patika.dev](https://academy.patika.dev/courses/html/gorsellerle-calismak)
