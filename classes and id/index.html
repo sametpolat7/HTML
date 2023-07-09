@@ -1,0 +1,149 @@
+<!-- Let's start with block and inline elements -->
+<!-- 1. Block Elements -->
+    <p>Every HTML element has a default display value, depending on what type of element it is.</p>
+    <p>There are two display values: block and inline.</p>
+
+        <h2 id="top" >Block Elements</h2> <!-- Added id for "Tap for top"-->
+
+    <p>A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.</p>
+    <p>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</p>
+    <p>Two commonly used block elements are: &lt;p&gt; and &lt;div&gt;.</p>
+
+    <div style="background-color: black;color: aliceblue;" >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum in totam deleniti eveniet facilis tempore vel eius porro, a voluptate.
+        </p>
+    </div>
+
+<!-- Run and see the difference -->
+
+    <span style="background-color: black;color: aliceblue;" >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum in totam deleniti eveniet facilis tempore vel eius porro, a voluptate.
+    </span>
+
+<!-- 2. Inline Elements -->
+
+        <h2>Inline Elements</h2>
+
+    <span>An inline element does not start on a new line.</span>
+    <span>An inline element only takes up as much width as necessary.</span>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing
+        <span style="color: chocolate;" ><strong>elit</strong>
+        </span>.Sit doloribus quisquam, possimus minus
+         <span style="color: crimson;" > <strong>explicabo</strong>
+        </span> adipisci ipsam repellat voluptates quam obcaecati.
+    </p>
+
+<!-- A. Classes -->
+
+        <h2>Classes</h2>
+
+    <p>The HTML class attribute is used to specify a class for an HTML element.</p>
+    <p>Multiple HTML elements can share the same class.</p>
+    <p>The class attribute is often used to point to a class name in a style sheet.</p>
+
+<!-- An example -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classes and id</title>
+        <style>
+
+/* Let's write in the ID example one too */
+            #title 
+            {
+                font-size: 250%;
+                background-color: orange;
+                color: whitesmoke;
+            }  
+
+            .team 
+            {
+                background-color:darkorange;
+                color: red;
+                text-align: center;
+                font-size: 150%;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h1 text align="center"><span id="title" >GALATASARAY</span></h1>
+
+    <div class="team" >
+        <h3>Icardi</h3>
+        <p>9</p><hr>
+        <h3>Zaniolo</h3>
+        <p>17</p><hr>
+        <h3>Nelsson</h3>
+        <p>25</p>
+    </div>
+    
+    </body>
+    </html>
+
+    <!-- B. ID -->
+
+        <h2>ID</h2>
+
+    <p>The HTML id attribute is used to specify a unique id for an HTML element.</p>
+    <p>You cannot have more than one element with the same id in an HTML document.</p>
+
+    <!-- Chapter Example -->
+
+    <h2>Contents</h2>
+<ol>
+    <li><a href="#c1">Chapter1</a></li>
+    <li><a href="#c2">Chapter2</a></li>
+    <li><a href="#c3">Chapter3</a></li>
+    <li><a href="#c4">Chapter4</a></li>
+    <li><a href="#c5">Chapter5</a></li>
+    <li><a href="#c6">Chapter6</a></li>
+</ol>
+
+        <h3 id="c1" >Chapter 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et aliquam quaerat, asperiores rerum distinctio accusamus suscipit excepturi! Quas distinctio fugiat sunt porro, quis vel culpa accusantium nemo iure dolore ea assumenda odit eum aliquam cum harum! Odit at, doloribus minima, illum cum ad quidem accusantium dolorum quod illo eligendi dignissimos rerum tempore vitae reiciendis repellat accusamus nemo quia suscipit quo minus! Eum libero mollitia quis dolorum tenetur harum commodi, consectetur quibusdam necessitatibus asperiores ratione voluptates fugit explicabo iure non aliquam doloremque consequuntur. Reiciendis, laudantium? Vitae, repellendus inventore quis quas asperiores, minus omnis dolorem unde autem saepe praesentium, in sed?
+            </p>
+
+        <h3 id="c2" >Chapter2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iste sunt repellat nostrum maxime dolores laudantium, in illum, vero consequatur minima quo! Quidem dicta voluptatum nam mollitia, quisquam eligendi nobis facere ipsum tenetur sequi possimus, culpa accusamus praesentium blanditiis libero! Cupiditate quod sapiente commodi autem, temporibus sint officiis pariatur voluptate doloremque veniam repellat, sequi provident tempore beatae quos quas blanditiis! In beatae excepturi amet? Illum, vero repellat. Ipsam, nobis! Enim voluptatibus quaerat eos veniam itaque molestiae iste sit facilis temporibus rem illo ea, ipsum nisi, deserunt omnis. Eligendi, voluptatum aut vero minus natus dignissimos sit, reiciendis officiis doloremque, incidunt delectus?
+            </p>
+
+        <h3 id="c3" >Chapter3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores ab debitis fuga eveniet animi molestiae eum sint. Molestiae expedita iusto ad asperiores dolorem, fugiat aliquid aspernatur ut vitae quia tempora commodi a nihil, officiis natus veniam ducimus consectetur? Perspiciatis fugit reprehenderit reiciendis tenetur incidunt voluptatem quod, porro obcaecati nobis ducimus nam laudantium iure facere optio officia enim? Corrupti harum excepturi ipsum ullam voluptatem? Doloribus totam praesentium voluptatum repellendus placeat. Quae animi assumenda modi eum asperiores, minus recusandae numquam. Vel impedit pariatur quia voluptates labore laudantium quibusdam dolore error quisquam ab eaque iure animi quae, beatae totam inventore nam officia.
+            </p>
+
+        <h3 id="c4" >Chapter4</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officia illo, autem ut itaque deserunt laboriosam enim quos aspernatur consectetur mollitia nostrum dolorem corrupti quisquam voluptate, aut necessitatibus temporibus impedit hic perspiciatis. Totam velit qui laborum voluptatibus minus, ducimus, in laboriosam necessitatibus incidunt provident soluta ratione tempore quis pariatur nam illum distinctio? Aliquid dolore animi quos asperiores et accusantium! Perspiciatis enim animi qui incidunt! Eaque, ducimus, perspiciatis, dicta harum corrupti nobis repudiandae temporibus labore omnis officiis similique aut molestias aliquam soluta qui mollitia architecto dignissimos. Nesciunt tempora doloremque ipsa libero perferendis vel dignissimos ab rerum non! Nemo deleniti ratione libero.
+            </p>
+
+            <h3 id="c5" >Chapter5</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi natus consequuntur tenetur porro exercitationem a quidem repellat amet accusantium! Ut iusto sequi accusamus alias quo quas incidunt, placeat repellat neque ipsum, soluta facere corrupti vero sint, atque quod fuga autem non eligendi sit. A ipsum eveniet dolor ex minus accusamus quo itaque excepturi magnam dicta? Tempore quam veniam praesentium accusantium omnis explicabo recusandae incidunt, aliquid amet minus temporibus aut. Nesciunt molestiae, aliquid repellendus iusto est delectus, quisquam obcaecati sequi libero corrupti, possimus accusantium praesentium harum iste. Distinctio aut excepturi harum! Assumenda, minima ea! Tenetur, corrupti. Iure aliquam doloribus voluptatem nam?
+            </p>
+
+            <h3 id="c6" >Chapter6</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quam consequuntur enim hic adipisci dolorem a inventore debitis at et aperiam iste, ab sed voluptas odit eaque in doloribus doloremque similique dolore provident vitae molestias distinctio asperiores. Consequatur explicabo fuga omnis perspiciatis laborum repudiandae sint maxime, quisquam eaque non dolor, error voluptatem rem illum vel necessitatibus voluptates doloremque incidunt ipsam molestiae officiis dignissimos quam. Repellat id, ex ab amet tenetur molestias libero a fugiat adipisci, perspiciatis aut sit culpa aspernatur incidunt accusantium aliquam, nemo nulla consequuntur voluptate! Eum, quisquam commodi non minima tempore temporibus molestias perspiciatis quibusdam facilis asperiores architecto!
+            </p>
+
+            <p text align="center" ><a href="#top">Tap for Tap</a></p>
+
+            <!-- Thats it. -->
+
+
+
+
+
+
+
