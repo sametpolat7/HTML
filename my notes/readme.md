@@ -12,6 +12,4 @@ The title attribute defines some extra information about an element.
 The value of the title attribute will be displayed as a tooltip when you mouse over the element.
 
 **Example**
-```
-&lt;p title="I'm a tooltip"&gt;This is a paragraph.&lt;/p&gt;
-```
+` <p title="I'm a tooltip">This is a paragraph.</p> `
