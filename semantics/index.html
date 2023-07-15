@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #side_text {
+            background-color: aquamarine;
+            float: right;
+            width: 20%;
+            color:blue;
+            padding-left: 15px;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Semantic elements = elements with a meaning. -->
+    <!-- HTML <section> Element -->
+        <!-- 
+            The <section> element defines a section in a document. 
+            According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."
+        -->
+        <section>
+            <h1>
+                Section.
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eos ad est quo placeat, asperiores, temporibus velit dolore facilis totam, perferendis perspiciatis iste doloremque odio.
+            </p>
+        </section>
+        <section>
+            <h1>
+                Section2
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint corrupti tenetur, consequuntur recusandae odit ex itaque ipsum, doloribus pariatur soluta ut ullam laboriosam et! Architecto.
+            </p>
+        </section>
+            <hr>
+    <!-- HTML <article> Element -->
+        <!-- The <article> element specifies independent, self-contained content. -->
+        <!-- 
+            An article should make sense on its own, and it should be possible to distribute it independently from the rest of the web site.
+         -->
+             <article>
+                <h2>
+                    Article
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, esse.
+                </p>
+             </article>
+             <article>
+                <h2>
+                    Article2
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, accusantium?
+                </p>
+             </article>
+            <hr>
+
+    <!-- Section > Article OR Article > Section ? -->
+        <!-- 
+            You will find HTML pages with <section> elements containing <article> elements, and <article> elements containing <section> elements.
+        -->
+
+    <!-- HTML <header> Element -->
+    <!-- 
+        The <header> element represents a container for introductory content or a set of navigational links.
+            
+            A <header> element typically contains:
+                1. one or more heading elements (<h1> - <h6>)
+                2. logo or icon
+                3. authorship information
+        
+        Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.
+     -->
+         <article> <!--Or Section. Doesnt matter -->
+            <header>
+                <h1>
+                    Header
+                </h1>
+                <p>
+                    Header Mission:
+                </p>
+            </header>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ducimus!
+                </p>
+         </article>
+         <hr>
+
+    <!-- HTML <footer> Element -->
+        <!-- 
+            The <footer> element defines a footer for a document or section.
+                A <footer> element typically contains:
+                    1. authorship information
+                    2. copyright information
+                    3. contact information
+                    4. sitemap
+                    5. back to top links
+                    6. related documents
+         -->
+         <footer>
+            <p>
+               <b>Author:</b> Samet Polat
+            </p>
+            <p>
+                <a href="mailto:samet.polat59@hotmail.com">mailto:samet.polat59@hotmail.com</a>
+            </p>
+         </footer><hr>
+
+    <!-- HTML <nav> Element -->
+        <!-- 
+            The <nav> element defines a set of navigation links.
+
+                Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major blocks of navigation links.
+
+                Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content. 
+        -->
+        <nav>
+            <a href="/classes_id/index.html">Class</a>
+            <a href="/emmets/emmets.html">Emmets</a>
+            <a href="/head_tag/index.html">HeadTag</a>
+        </nav><hr>
+
+    <!-- HTML <aside> Element -->
+        <!-- 
+            The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+            The <aside> content should be indirectly related to the surrounding content.
+         -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias odit, illum dolore reiciendis blanditiis eos dignissimos nesciunt, quaerat doloremque itaque, cum aliquam assumenda provident obcaecati ex. Molestiae earum deserunt officiis nobis eligendi ipsum eos animi.
+        </p>
+         <aside id="side_text">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam voluptas molestiae ducimus necessitatibus assumenda, eius cupiditate ea sequi ex?
+            </div>
+         </aside>
+
+    <!-- HTML <figure> and <figcaption> Elements -->
+        <!-- 
+            The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+
+            The <figcaption> tag defines a caption for a <figure> element. The <figcaption> element can be placed as the first or as the last child of a <figure> element.
+         -->
+         <figure>
+            <img src="https://picsum.photos/200/300" alt="LoremPicsum" title="LoremPicsum">
+            <figcaption>
+                Lorem Picsum Random Image
+            </figcaption>
+         </figure>
+</body>
+</html>
