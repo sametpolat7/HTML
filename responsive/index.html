@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Samet Polat" >
+    <meta name="description" content="responsive" >
+    <meta http-equiv="refresh" content="30" >
+    <!-- This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling. -->
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0" >
+    <title>Responsive</title>
+    <style>
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:rgb(140, 140, 140);
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Responsive web design is about creating web pages that look good on all devices! -->
+    <!-- A responsive web design will automatically adjust for different screen sizes and viewports. -->
+    <h1>Responsive</h1>
+    <div>
+        <p>
+            Responsive Images
+        </p>
+    </div>
+    <!-- If the CSS width property is set to 100%, the image will be responsive and scale up and down: -->
+    <img src="https://picsum.photos/200/300" alt="Lorem Picsum" title="Lorem Picsum Random Img" style="width: 100%;" ><br>
+    <!-- Note that the above image may be larger than its normal size. In these cases, the max-widht property would be more good -->
+    <img src="https://picsum.photos/200/300" alt="Lorem Picsum" title="Lorem Picsum Random Img" style="max-width: 100%;" ><br>
+    <!-- Note: The picture smaller than other. Because the pic has 200*300 form at source. -->
+    <hr>
+    <!-- Responsive Text Size -->
+    <!-- The text size can be set with a "vw" unit, which means the "viewport width". That way the text size will follow the size of the browser window -->
+    <h1 style="font-size: 10vw;" >HELLO WORLD!</h1>
+    <h1 style="font-size: 5vw;" >HELLO WORLD!</h1>
+    <h1 style="font-size: 1vw;" >HELLO WORLD!</h1>
+    <!-- 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm. -->
+    
+</body>
+</html>
