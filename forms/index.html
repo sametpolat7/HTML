@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--An HTML form is used to collect user input. The user input is most often sent to a server for processing-->
+    <!--The HTML <form> element is used to create an HTML form for user input: 
+        The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+     -->
+        <h1>The Form Element</h1>
+        
+        <form action="">
+            <label for=""></label>
+            <input type="text">
+        </form>
+     
+        <h2>Input Elements</h2>
+    <!-- An <input> element can be displayed in many ways, depending on the type attribute. -->
+
+        <section>
+            <div>
+                <input type="button" value="Go"><br>
+                <input type="checkbox" name="info" id="lorem"><br>
+                <input type="color" name="" id=""><br>
+                <input type="date" name="" id=""><br>
+                <input type="datetime" name="" id=""><br>
+                <input type="datetime-local" name="" id=""><br>
+                <input type="email" name="" id=""><br>
+                <input type="file" name="" id=""><br>
+                <input type="hidden" name=""><br>
+                <input type="image" src="https://picsum.photos/200/300" alt=""><br>
+                <input type="month" name="" id=""><br>
+                <input type="number" name="" id=""><br>
+                <input type="password" name="" id=""><br>
+                <input type="radio" name="" id=""><br>
+                <input type="range" name="" id=""><br>
+                <input type="reset" value="Reset"><br>
+                <input type="search" name="" id=""><br>
+                <input type="submit" value=""><br>
+                <input type="tel" name="" id=""><br>
+                <input type="text" name="" id=""><br>
+                <input type="time" name="" id=""><br>
+                <input type="url" name="" id=""><br>
+                <input type="week" name="" id=""><br>
+            </div>
+        </section>
+
+        <h2>The Label Element</h2>
+    <!--The <label> tag defines a label for many form elements.
+        The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
+        The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+     -->
+    <!-- Let's explain with examples -->
+        <h3>Text Fields</h3>
+        <form action="">
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" name="lname" id="lname"><br>
+        </form> <!-- Default input field character value is 20 -->
+
+         <h3>Radio Buttons</h3>
+         <form>
+            <p>Choose your favorite WEB Language:</p>
+            &nbsp; <input type="radio" name="fav_language" id="ht" value="">
+            &nbsp; <label for="ht">HTML</label><br>
+            &nbsp; <input type="radio" name="fav_language" id="cs" value="">
+            &nbsp; <label for="cs">CSS</label><br>
+            &nbsp; <input type="radio" name="fav_language" id="js" value="">
+            &nbsp; <label for="js">JavaScript</label><br>
+         </form>
+         <!--If we don't want the click to be continuous, we should write the same things on the name tag-->
+
+         <h3>Checkboxes</h3>
+         <form action="">
+            <p>Alright. How many do you know?</p>
+            <input type="checkbox" name="html" id="ht1">
+            <label for="ht1">HTML</label><br>
+            <input type="checkbox" name="css" id="cs1">
+            <label for="cs1">CSS</label><br>
+            <input type="checkbox" name="javascript" id="js1">
+            <label for="js1">JavaScript</label><br>
+         </form>
+         <!-- If the name attribute is omitted, the value of the input field will not be sent at all. -->
+
+</body>
+</html>
