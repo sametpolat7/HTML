@@ -57,10 +57,11 @@
         <h3>Text Fields</h3>
         <form action="">
             <label for="fname">First Name:</label><br>
-            <input type="text" name="fname" id="fname"><br>
+            <input type="text" name="fname" id="fname" placeholder="Your Name"><br> <!--Placeholder-->
             <label for="lname">Last Name:</label><br>
-            <input type="text" name="lname" id="lname"><br>
-        </form> <!-- Default input field character value is 20 -->
+            <input type="text" name="lname" id="lname" placeholder="Your Surname"><br> <!--Placeholder-->
+        </form> 
+        <!-- Default input field character value is 20 -->
 
          <h3>Radio Buttons</h3>
          <form>
@@ -86,5 +87,52 @@
          </form>
          <!-- If the name attribute is omitted, the value of the input field will not be sent at all. -->
 
+         <h3>The &lt;textarea&gt; Element</h3>
+         <!-- The <textarea> element defines a multi-line input field (a text area): -->
+
+            <form action="">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Go">
+            </form>
+
+        <h3>The &lt;button&gt; Element </h3>
+        <!-- The <button> element defines a clickable button: -->
+
+            <form action="">
+                <input type="button" value="Go" onclick="alert ('Hello World')">
+            </form><br>
+
+            <form action="">
+                <button type="button" onclick="alert('Hello World')" >Click Me</button>
+            </form>
+
+        <h3>The &lt;select&gt; Element</h3>
+        <!-- The <select> element defines a drop-down list: -->
+            <form action="">
+                <label for="cars">Select your cars:</label>
+                <select name="car" id="cars">
+                    <option value="Volvo">Volvo</option>
+                    <option value="Ford">Ford</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Audi">Audi</option>
+                </select>
+                <input type="submit" value="Go">
+            </form>
+
+        <h3>The &lt;datalist&gt; Element</h3>
+        <!-- The <datalist> element specifies a list of pre-defined options for an <input> element. -->
+        <!-- Users will see a drop-down list of the pre-defined options as they input data. -->
+
+        <form action="">
+            <input list="browser"> <!--The list attribute of the <input> element, must refer to the id attribute of the <datalist> element.-->
+            <datalist id="browser">
+                <option value="Chrome"></option>
+                <option value="Mozilla"></option>
+                <option value="Safari"></option>
+                <option value="Edge"></option>
+            </datalist>
+            <input type="submit" value="Gönder">
+        </form>
 </body>
 </html>
